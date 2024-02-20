@@ -1,0 +1,340 @@
+﻿@import url('../../../css2');
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+header {
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	z-index: 10;
+
+}
+
+header .wrap {
+	width: 100%;
+	padding: 5px;
+	background: #000;
+	display: flex;
+	justify-content: center;
+}
+
+header .wrap .logo {
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	margin-right: 30px;
+
+}
+
+header nav {
+	width: 100%;
+	padding: 0px 10px;
+
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	height: 40px;
+}
+
+
+.left-text{
+	list-style-type: none;
+	padding: 5px 15px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+
+}
+
+.all-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.all-link:hover {
+ color: #f7be00;
+  transition: color 0.3s ease-in;
+}
+
+
+.nav__search {
+	width: 430px;
+	height: 30px;
+	padding: 0px;
+	margin: 5px;
+	background: #fff;
+	display: flex;
+	overflow: hidden;
+	border-radius: 10px;	
+}
+
+.nav__search input {
+	width: calc(100% - 40px);
+	background: transparent;
+	padding: 0 0 0 10px;
+}
+
+.nav__search button {
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+	margin-right: 5px;
+	background: transparent;
+}
+
+.nav__search button img {
+	width: inherit;
+	height: inherit;
+}
+
+.right div {
+	display: flex;
+	margin-right: 13px;
+	line-height: 30px;	
+	margin-top: 2px;
+}
+
+.right div .nav__icon {
+	width: 30px;
+	height: 30px;
+	margin-right: 4px;
+	cursor: pointer;
+}
+
+
+
+.left, .center, .right {
+	display: flex;
+}
+
+
+.cities {
+	position: relative;
+}
+
+
+section {
+	margin-left: 2%;
+	margin-top: 2%;
+	
+}
+
+.text-company {
+	display: flex;
+	flex-direction: column;
+}
+
+h6 {
+	color: #7F7C7C;
+}
+
+.main-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+h1 {
+	font-size: 30px;
+	margin-top: 3%;
+}
+
+
+.container {
+	margin-top: 4%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-container {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	height: 10%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.2);
+    overflow-x: auto;
+
+}
+
+
+
+.information-container {
+	margin-right: 15%;
+	width: 55%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+}
+
+.text-nav-main {
+	margin-top: 5%;
+	font-weight: 700;
+	margin-bottom: 10%;
+	margin-left: 13%;
+	color: initial;
+	text-decoration: underline;
+
+
+}
+.menu-container ul a {
+
+	text-decoration: none;
+	color: inherit;
+}
+
+.text-nav {
+	margin-top: 7%;
+	font-weight: 700;
+	margin-bottom: 10%;
+	margin-left: 13%;
+}
+
+.text-nav:hover, .text-nav-main:hover {
+	color: #f7be00;
+  	transition: color 0.2s ease-in;
+}
+
+h2 {
+	text-align: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	font-size: 20px;
+}
+
+.container-text-information {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 3%;
+	margin-bottom: 10%;
+	overflow: hidden;
+	transition: box-shadow 0.3s;
+
+
+}
+ 
+.reviews-information, .reviews-information-quality, .reviews-information-smile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 20%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: cente;
+    box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+}
+
+
+.reviews-information-data {
+	font-size: 22px;
+	margin-top: 45%;
+}
+
+
+.reviews-information-text {
+	margin-bottom: 4%;
+	margin-top: 30%;
+	color: #7F7C7C;
+}
+
+.reviews-image {
+	margin-top: 30%;
+}
+
+
+.adress-map {
+	margin-bottom: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.map {
+	width: 380px;
+	height: 300px;
+	margin-right: 10%;
+	
+}
+
+.footer-page {
+	margin-top: 5%;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-company {
+	margin-top: 1%;
+	margin-left: 4%;
+	display: flex;	
+	flex-direction: column;
+}
+
+.about-company-main {
+	font-size: 15px;
+
+}
+
+.about-company-text, .purchaser-text, .connection-text{
+	margin-top: 10%;
+	font-size: 12px;
+}
+
+.purchaser {
+	margin-top: 1%;
+}
+ 
+.purchaser-main {
+	font-size: 15px;
+
+}
+
+.connection {
+	margin-top: 1%;
+	margin-right: 4%;
+}
+
+.connection-main {
+	font-size: 15px;
+}
+
+.connection-text-time {
+	margin-top: 10%;
+	font-size: 10px;
+	color: #888B90;
+}
+
+.messengers {
+	margin-top: 10%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.connection-end, .privacy-policy {
+	margin-top: 15%;
+	color: #888B90;
+	font-size: 10px;
+} 

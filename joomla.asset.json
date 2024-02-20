@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "lebanino",
+  "version": "4.0.0",
+  "description": "Нет описания",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "main",
+      "type": "style",
+      "uri": "main.css"
+    },
+    {
+      "name": "catalog",
+      "type": "style",
+      "uri": "catalog.css"
+    },
+    {
+      "name": "product_card",
+      "type": "style",
+      "uri": "product_card.css"
+    },
+    {
+      "name": "registration",
+      "type": "style",
+      "uri": "registration.css"
+    },
+    {
+      "name": "help",
+      "type": "style",
+      "uri": "company_information.css"
+    },
+    {
+      "name": "login",
+      "type": "style",
+      "uri": "login.css"
+    }
+  ]
+}

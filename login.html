@@ -1,0 +1,31 @@
+	<!DOCTYPE html>
+	<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Войти</title>
+		<link rel="shortcut icon" href="assets/icons/logo.png" />
+		<link rel="stylesheet" href="assets/styles/login.css">
+	</head>
+	<body>
+		<div class="container">
+			<form action="process_registration.php" method="POST">
+				<h1>Авторизация</h1>
+				<label for ="email">Введите логин:</label>
+				<input type="email" id="email" name="email" pattern=".+@.+" required="">
+				<label for ="password">Пароль:</label>
+				<input type="password" id="password" name="password" required="">
+				<a href="index.html" class="login-for-site">Войти</a>
+			</form>
+			<div class="external-login">
+				<h3 class="registration">Не имееите аккаунт?</h3>
+        		<a href="registration.html" class="">Регистрация</a>
+         		<p>Войти с помощью:</p>
+         		<a href="#" class="vk-login">VK</a>
+          		<a href="#" class="telegramm-login">Telegram</a>
+      		</div>
+
+
+		</div>
+	</body>
+	</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Регистрация</title>
+	<link rel="shortcut icon" href="assets/icons/logo.png" />
+	<link rel="stylesheet" href="assets/styles/registration.css">
+</head>
+<body>
+	<div class="container">
+		<form action="process_registration.php" method="POST">
+			<h1>Регистрация</h1>
+			<label for="name">Ваше имя:</label>
+			<input type="text" id="name" name="name" required="">
+			<label for="number-phone">Ваш номер телефона:</label>
+			<input type="tel" id="number-phone" name="number-phone" required="">
+			<label for="email">Ваш email:</label>
+			<input type="email" id="email" name="email" required="">
+			<label for="password">Ваш пароль:</label>
+			<input type="password" id="password" name="password" required="">
+			<label for="repeat-password">Повторите пароль:</label>
+			<input type="password" id="repeat-password" name="repeat-password" required="">
+			<a href="index.html" class="login-for-site">Регистрация</a>
+		</form>
+		<div class="external-login">
+			<p>Или зарегистрируйтесь с помощью:</p>
+			<a href="#" class="vk-login">VK</a>
+			<a href="#" class="telegramm-login">Telegram</a>
+		</div>
+	</div>
+</body>
+</html>
